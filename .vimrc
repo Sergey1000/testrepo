@@ -1,6 +1,7 @@
 runtime! debian.vim
 "" testcomm
 "" anothercomm
+"" onemorecomm
 syntax on
 set background=dark
 colors desert
