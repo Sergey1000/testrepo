@@ -1,23 +1,20 @@
 runtime! debian.vim
-"" testcomm
-"" anothercomm
 syntax on
 set background=dark
 colors desert
 
-set showcmd		" Показывать команды в строке статуса
-set showmatch		" Подсвечивание парных скобок
-set ignorecase		" Игнорирование регистра при поиске
-set incsearch		" Поиск по кругу
-set number		" Выводить номер строк
-set hlsearch		" Подсветка при поиске
-set autoindent		" Наследование отступов предыдущей строки
-set nocompatible	" Несовместимость с vi
-set wrap		" Перенос строк
-set linebreak		" Перенос по словам, а не по буквам
-set smartindent		" Умная подсветка
+set showcmd
+set showmatch
+set ignorecase
+set incsearch
+set number
+set hlsearch
+set autoindent
+set nocompatible
+set wrap
+set linebreak
+set smartindent
 set clipboard=unnamedplus
-
 
 " Создать вкладку
 map <C-t> <Esc>:tabnew<CR>i
