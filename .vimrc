@@ -1,7 +1,9 @@
+" It needs peaksea.vim in /usr/share/vim/vim74/colors
+
 runtime! debian.vim
 syntax on
 set background=dark
-colors desert
+colors peaksea
 
 set showcmd
 set showmatch
