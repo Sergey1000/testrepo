@@ -2,9 +2,9 @@
 
 if [ $(id -u) -eq 0 ];
         then
-                export PS1='\e[0;31m[\w]\e[m \e[0;37m[\h]\e[m \e[0;31m\$\$\$\e[m '
+                export PS1='[vm]\[\e[0;31m\][\w][\h] \$\[\e[0m\] '
         else
-                export PS1='\e[0;32m[\w]\e[m \e[0;37m[\h]\e[m \e[0;32m\$\$\$\e[m '
+                export PS1='[vm]\[\e[0;32m\][\w][\h] \$\[\e[0m\] '
 fi
 
 export EDITOR=vim
